@@ -1,0 +1,17 @@
+---
+title: "Data Science at William & Mary"
+author: "dm-wm.github.io"
+---
+
+****
+
+__Data Science__ is the study and application of methods that extract knowledge from frequently large, diverse sets of data.
+These data can come from anywhere, for example: newspaper articles, satellite images, or genomes.
+
+The goal of the Data Science program is to prepare students for careers that explore patterns in large data sets and identify potential trends and insights.
+This program will teach students relevant skills (e.g., programming, modeling, machine learning, data visualization, and database structures) and to assess how data can be used to solve novel problems.
+
+```{r echo=FALSE, results='asis', comment=NA}
+# Print the current date (based on local computer time)
+cat("Updated:", as.character(Sys.Date()))
+```

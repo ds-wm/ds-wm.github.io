@@ -1,0 +1,29 @@
+.navbar-default{
+    background-color: #00313C;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.myfoot {
+    width: 100%;
+    color: #ffffff;
+    background-color: #00313C;
+    padding-top: 10px;
+}
+
+.foot-text {
+    text-align: center;
+}
+
+dt {
+    margin-top: 20px;
+}
+
+.caption {
+    font-size: 10pt;
+    color: #535353;
+}

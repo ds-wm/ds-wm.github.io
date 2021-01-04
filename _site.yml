@@ -1,0 +1,25 @@
+name: "ds-wm.github.io"
+output_dir: "."
+navbar:
+    title: "DS-WM"
+    right:
+        - text: Courses
+          menu:
+            - text: "Applied Time Series"
+              href: course/atsa/index.html
+            - text: "Intro to DS"
+              href: course/intro/index.html
+            - text: "Spatial Data Discovery"
+              href: https://spatial-data-discovery.github.io/
+        - text: GitHub
+          icon: fa-github
+          href: https://github.com/ds-wm/ds-wm.github.io
+
+output:
+    html_document:
+        toc: false
+        theme: flatly
+        highlight: haddock
+        css: "styles.css"
+        include:
+            after_body: footer.html
