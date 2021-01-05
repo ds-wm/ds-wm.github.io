@@ -1,0 +1,440 @@
+---
+title: "Syllabus | Applied Time Series Analysis"
+author: "Data Science @ William & Mary"
+date: "Spring 2021"
+---
+
+****
+
+Course Description
+==================
+
+This course is structured to teach a specific data science skill set, provide ability to perform hands-on research employing a particular method, and ultimately produce an independent research project.
+Students shall learn about and discuss relevant topics and research associated with time series analysis.
+Some of these sessions will be designated as hands-on laboratory sessions in which students write code to replicate and perform analyses using R.
+
+The course will place a focus on the code and implementation choices necessary to perform applied time series analysis.
+Throughout the semester students shall replicate several time-series studies and provide replication code and analyses as part of their lab assignments.
+
+Students must apply time series skills learned throughout the course to answer their own research questions.
+Students shall brief progress on their projects throughout the semester as well as the final project and results during the last couple weeks of the semester.
+
+Catalog Number
+
+:   - DATA 330
+    - Section 1
+    - CRN 24696
+
+Prerequisites
+
+:   - "Programming for Data Science" (DATA 141 or CSCI 140) or "Computational Problem Solving" (CSCI 141)
+
+Semester
+
+:   - Spring 2021 (2021-Jan-27 to 2021-May-18)
+
+Location
+
+:   - This course is taught online (remotely); therefore, it can be completed from anywhere.
+
+Class Times
+
+:   - Tu/Th 1530--1650
+
+Instructor
+
+:   - Dr. Tyler W. Davis
+    - Email: twdavis@wm.edu
+    - Physical Office: Center for Geospatial Analysis, Swem Library Rm 213
+    - Virtual Office: [Nooks](https://nooks.in/goto/7cc0KabvZpnfVKyV?pwd=o162Tu)
+    - Phone: 757-221-6449
+    - Website: https://ds-wm.github.io
+
+Office Hours
+
+:   - Schedule is posted on virtual office website
+    - *Appointments are welcome outside normally scheduled office hours; please message or email to set up a time.*
+    - *There may be certain days when office hours will be either canceled or rescheduled; notifications will be sent ahead of time.*
+
+Delivery
+
+:   - Course will delivered [RSOF](https://www.wm.edu/offices/registrar/facstaff/academicscheduling/instr_del_catgs/index.php), which is fully remote and predominantly synchronous, off campus.
+    - Some aspects of the class (e.g., lectures, lessons, or demonstrations) will be made available as a recording for to watch either before or after class
+    - Synchronous class sessions __will not__ be recorded; you are responsible for missed content
+
+Final Exam
+
+:   - TBA
+
+Minimum Passing Grade
+
+:   - D
+
+Communication
+
+:   - Instant messaging using [GroupMe](https://groupme.com/)
+        - For instant delivery of content or for questions that need quick responses.
+        - *Please email me your preferred GroupMe email address.*
+    - Discussion posts, Q&A, and schedule management using [Blackboard][bbatwm]
+        - For weekly engagement including sharing ideas, methods and content and asking/responding to questions, comments or concerns.
+        - This will serve as a primary content hub; all other content will be linked from here.
+        - *You need access to Blackboard for this class.*
+    - Code sharing [GitHub](https://github.com/)
+        - For posting coded assignments and exercises.
+        - *You must create a GitHub account, if you do not already have one.*
+    - Video conferencing (e.g, [Zoom](https://cwm.zoom.us/) or [Nooks][nookrm])
+        - Video conferencing is for office hours, video chats, and synchronous class meetings where "face-to-face" communication or screen sharing is required.
+        - *Please note that Nooks presently does not support mobile devices or Safari web browser :(*
+    - Email ([twdavis-at-wm-dot-edu](mailto:twdavis@wm.edu))
+        - The new snail mail; use this for personal communication or whenever sharing is inappropriate.
+
+    See [**Code of Conduct**](#the-code-of-conduct) regarding how these communication platforms are (and should be) used.
+
+Textbook
+
+:   - [The R Book][r-book], 1<sup>st</sup> Edition (Crawley, 2007); ISBN-13: 9780470510247
+    - [Applied Time Series Analysis with R][atsawr], 2<sup>nd</sup> Edition (Woodward, 2017); ISBN-10: 1498734227
+        * [Textbook errata][errata]
+
+Course Materials
+
+:   - Laptop or desktop computer (*required*)
+
+        \* _Your computer should have at least 500 MB of free disk space, have at least 8 GB of memory, and run a modern desktop OS (e.g,. PC, Mac, or Linux); netbooks need not apply._
+    - Dedicated USB 3.0 thumb drive 64 GB or larger (*recommended*)
+
+        \* _Organizing your course work and maintaining a backup can save you from serious misfortune; I know from experience._
+
+Technology
+
+:   - [R][cran-r] version 3.6.3 "Holding the Windsock" (*required*)
+
+        \* _Note that R version 4.0.3 "Bunny-Wunnies Freak Out" was released in October 2020, but was not used to test the assignments; therefore, if/when possible, please use version 3.6.3._
+    - [tswge][rtswge] version 1.0.0 R package (*required*)
+        * see [here][refman] for a PDF of the reference manual
+    - [RStudio Desktop][rsdose] open-source edition (*recommended*)
+    - [Git][gitscm] (*recommended*)
+
+[bbatwm]: https://blackboard.wm.edu/
+[cran-r]: https://cran.r-project.org/
+[gitscm]: https://git-scm.com/
+[nookrm]: https://nooks.in/goto/7cc0KabvZpnfVKyV?pwd=o162Tu
+[rsdose]: https://rstudio.com/products/rstudio/#rstudio-desktop
+[rtswge]: https://www.rdocumentation.org/packages/tswge/versions/1.0.0
+[r-book]: https://archive.org/details/TheRBook_Crawley
+[atsawr]: https://wm.primo.exlibrisgroup.com/permalink/01COWM_INST/1tc7lat/alma991033373629903196
+[errata]: https://www.texasoft.com/ATSA/Errata%20for%20second%20edition.pdf
+[refman]: https://cran.r-project.org/web/packages/tswge/index.html
+
+---
+
+Course Objectives
+=================
+1.
+
+
+What you should already know
+----------------------------
+* Basic computer programming principles (e.g., functions, loops, if/then cases, file IO)
+* Basic probability and statistics (e.g., expected value, variance, standard deviation, correlation, magnitude, real vs. imaginary numbers)
+
+What is expected of you
+-----------------------
+* Meet twice a week virtually;
+    * be on time and courteous to your other classmates
+    * join the class with your video turned on
+* Provide a course evaluation at the end of the term with a summary of things you liked and disliked; methods that worked for you and those that fell short; topics that interested you and those that were uninteresting.
+
+What to expect from your instructor
+-----------------------------------
+* Meet twice a week
+* Answer questions and provide feedback as requested through email, chat, discussion board forums or other electronic means in a timely manner
+* Manage all web resources
+* Post videos to introduce/explain concepts and guide you through demos
+* Make accommodations for video chat requests during and/or outside scheduled office hours
+
+---
+
+Course Structure
+================
+
+How this class is stylized
+--------------------------
+I designed this course to mimic a real-world geospatial organization that solves spatial problems; therefore, a large focus of this class will be presenting you with challenge questions and asking you to solve them.
+To build your geospatial problem-solving skills, we will tackle these challenges together, sharing our methods and results with one another.
+I will show you tips and tricks and introduce you to new GIS methods and tools to help you become better, faster and stronger GIS professionals.
+
+I took inspiration from Ben Balter's ["15 rules for communicating at GitHub"](https://ben.balter.com/2014/11/06/rules-of-communicating-at-github/).
+This type of asynchronous workstyle is becoming more prevalent and economically gainful in today's tech world; not to mention the accelerated rate of remote work under the present pandemic.
+Having the skills to work remotely and collaboratively can give you a "leg up" in the job market.
+This course aims to pair style with content to give you a truly advanced geospatial analysis and programming experience.
+
+Your goal is to work both individually and as a team to address (and potentially solve) the various projects that are assigned.
+For all projects, you choose how to address them.
+You keep in constant communication with your classmates and instructor, build off of each other's strengths, share ideas and methods, and create new ways of efficiently solving geospatial challenges.
+
+This style of learning closely resembles what will be expected of you following graduation and entering the workforce.
+The difference here is that there is the expectation that you will help one another (not always the case in the real world) and your instructor will be your personal tutor and guide (a luxury, for certain).
+
+> **Disclaimer 1**: This class is a part of the Center for Geospatial Analysis's [Certificate in Geographic Information Science Program](https://www.wm.edu/as/cga/certificate/overview/index.php) and is offered to post-baccalaureate level students.
+> Undergraduates at William & Mary also have the opportunity to take this course with slightly modified expectations during evaluation.
+
+
+> **Disclaimer 2**: In academia, it is well known that new courses take about 4--6 iterations before they are "well developed."
+> That being said, this class is currently in "delta" version (i.e., fourth iteration); therefore, two things apply: 1) class structure, methods, topics, delivery, evaluation, etc. are in a constant state of change so please be patient; 2) you are in a position to alter the course by providing feedback, so please, open a notebook and jot down your thoughts, opinions and concerns regarding the class as we go along and use this to craft your course evaluation at the end of the term.
+
+How class time is used
+----------------------
+This is a remote asynchronous class---there is no "class time."
+
+This is an advanced class aimed at introducing several new concepts, software, tools, methods, and analyses in a short time.
+It is strongly suggested (and even required) that you take advantage of one another and the instructor to maximize what can be done and what you can learn during this time.
+
+Remember, your goal is to complete the Master Checklist and Performance Accomplishments write up before the end of term.
+To do so, you need to demonstrate that you have satisfied the [learning objectives](#course-objectives) for this course.
+
+
+How this class is assessed
+--------------------------
+_This class is assessed based on a written/oral evaluation of student learning._
+
+You will schedule a one-on-one final evaluation with your instructor following at least two individual meetings (one at the beginning and one in the middle of the semester).
+
+You grade is based on your demonstration of your mastery of the course objectives.
+You are solely responsible for communicating what you have done to succeed in each of these categories.
+This is accomplished by the following:
+
+1. Positive, productive engagement as demonstrated by weekly discussions, weekly reports, and communication with the class (e.g., usage of GitHub Issues, GroupMe chat, email, etc.).
+1. Successful and professional client meeting.
+   I am debriefed on how your meeting went by the CGA Fellows.
+1. Accomplishments write up and completion of the master checklist.
+    - You are solely responsible for communicating what you have done this semester and how it contributes to the course's learning objectives.
+    - That being said, I have created the master checklist and tips/suggestions in the performance accomplishments to help and guide you with this process.
+1. Final evaluation.
+    - Successfully complete two (2) special works projects: one written (and/or video recorded) and one demonstrated live during the final evaluation.
+    - Successfully answer a series of GIS-related questions.
+
+Based on the cumulative assessment of individual accomplishments, a student will earn the corresponding grade for their level of achievement.
+
+Qualitative Assessment | Approximate Grade | Meaning |
+:--- | :--- | :------ |
+Unsatisfactory | F | Demonstrates a lack of effort, lack of care, and/or lack of understanding the course objectives. |
+Does Not Meet Expectations | C--, D+, or D | Demonstrates a lack of understanding of one or more course objectives. |
+Fully Meets Expectations | B, B--, C+, or C | Demonstrates a basic understanding of the course objectives. |
+Exceeds Expectations | A, A--, or B+ | Demonstrates exceptional understanding of the course objectives. |
+
+The following stipulations impact a student's final grade and are evaluated in the following order.
+
+* Any given task consisting entirely of "Does Not Meet" or a total of nine (9) or more evaluations as "Does Not Meet" results in an overall "Unsatisfactory" grade
+* A total of 5--8 "Does Not Meet" evaluations results in an overall "Does Not Meet Expectations" grade
+* Three (3) or more given tasks consisting entirely of "Exceeds" or a total of eleven (11) or more evaluations as "Exceeds" results in an overall "Exceeds Expectations" grade
+* All other grades fall into the "Fully Meets Expectations" category
+
+The instructor reserves the right to adjust a student's final evaluation score by at most one-half step (e.g., in a plus/minus scale, a C may be rewarded to a C+ or downgraded to a C--) so long as it does not conflict with the following rules.
+
+* A student cannot receive a final grade higher than Unsatisfactory (F) if they receive an Unsatisfactory evaluation.
+* A student cannot receive a final grade less than Does Not Meet Expectations (D) if they did not receive an Unsatisfactory evaluation.
+
+There are no points, bonuses or extra credit assignments in this class.
+
+---
+
+# Course Topics
+The following are a list of topics that will, time provided, be covered during the term.
+
+
+* GIS Specialists versus Developers
+* Geoethics
+* GIS workflows and design
+* Geocoding, geofencing and other geoprocesses
+* Markdown text formatting
+* Python programming language
+* Arcade expression language
+* JavaScript programming language
+* Web applications for the geosciences
+* Programmatic approaches to managing geospatial data
+* Programmatic approaches to solving geospatial problems
+
+---
+
+Course Calendar
+===============
+This semester, each week will consist of at least five discussion topics, potential readings and responses, and a weekly write-up.
+
+
+Important Dates
+---------------
+First day of Add/Drop
+:   - 26 January 2021
+
+First day of term
+:   - 27 January 2021
+
+Add/drop deadline
+:   - 5 February 2021
+
+Withdraw deadline
+:   - 29 March 2021
+
+Last day of term
+:   - 7 May 2021
+
+Last day of exams
+:   - 18 May 2021
+
+Final evaluations
+:   - Final evaluations must be scheduled with your instructor on or before the last day of exams.
+    - Performance Accomplishments are due at least 24 hours before your scheduled evaluation.
+
+---
+
+Standards & Policies
+====================
+
+The Code of Conduct
+-------------------
+By the basis in which this class is designed, these things hold true:
+
+1. This class utilizes several forms of communication (e.g., instant messaging, discussion boards, emails, audio/video conferencing), of which not all can be monitored by the instructor at all times.
+2. You are responsible for how you interact with each other.
+
+Remember these things as you work together:
+
+1. "Don't ascribe maliciousness to that which can be explained by inadvertence."
+
+    This comes from the fact that it is almost impossible to portray our feelings or intended meaning behind typed text.
+    If something offends you, take a breath, be cordial and ask for clarification before unleashing your wrath (BTW: you shouldn't unleash your wrath).
+    That being said, also do not be a silent witness.
+    If something offends you, let everyone know.
+    We will never learn from our mistakes if our mistakes are never pointed out.
+    If malicious actions continue, the instructor will manage it.
+2. "There is no innovation and creativity without failure. Period."
+
+    You are a college student registered in a college class.
+    You are not expected to know everything.
+    The entire purpose of this exercise is for you to gain knowledge, so make an effort.
+    If you want to try something, try it and let everyone know what you are up to.
+    Best case scenario, your innovations spark new insight.
+    Worst case scenario, we all learn something from your efforts.
+    Remember: there are no right answers to these projects---just creative approaches, innovative designs and happy accidents---so don't be afraid to make a mistake.
+    It's better to aim high for something that will make a difference rather than to play it safe with something easy.
+3. Ask lots of questions.
+
+    Questions are cheap, so ask a lot of them.
+    When asking questions, remember to always strive for clarity.
+    If you don't know something or your aren't sure, just ask.
+    Sometimes, knowing the right question to ask is just as difficult as finding the answer.
+    When you find yourself here, please send up a flare or simply say "I'm lost."
+    We will get you back on track.
+4. Focus on opportunities.
+
+    Remember: this is not a race and you are not a judge, so don't get caught up with critiquing or competing with each other.
+    Provide your opinions and perspectives and then actually take the time to read the opinions and perspectives of others.
+    Challenge yourself to see things differently and try things differently.
+    Ignore your desire to be correct or to correct someone else and try not to contradict people; they don't like it and biologically it shuts down their ability to see things logically.
+5. Document and share everything.
+
+    While it may feel natural to keep your work private, projects really thrive when you document your process publicly.
+    By writing things down and sharing them, more people can participate along the way and you might get help on something you didn't even know you needed.
+    This leads to more things being documented, which produces a better project roadmap, which leads to better transparency and feedback, which leads to good decision making and faster/better results.
+
+    We cannot manage what we do not measure: so digitize your process!!!
+6. Everyone is bound to uphold a policy of respect for their instructor and their peers.
+    Students should be open-minded to new ideas and participate in collegiate debate, the sharing of ideas, and the receiving of feedback without defamatory remarks.
+    Students should help maintain a healthy learning environment by refraining from negative behavior, such as harmful remarks, quibbling over trivial matters, creating unnecessary debates, or bullying.
+
+    **There is zero tolerance for negative behavior. Failure to uphold this policy will result in punitive action and/or removing the offending student from access to all or part of the class.**
+
+
+Engagement Policy
+-----------------
+- *Weekly virtual engagement is required.*
+
+In this asynchronous virtual classroom, engagement is defined loosely as your interaction with one or more of the web-based communication tools.
+
+It is expected that you interact at a minimum with the posted discussions, chats, issues, emails, and/or video conferencing once a week.
+Failure to do so may negatively influence your final grade.
+
+Please make any and all planned absences (e.g., field trips, vacations, athletic events) that would result in you not being able to meet this minimum interaction known to your instructor at the earliest possible time.
+
+
+Coursework Policy
+-----------------
+- *You are bound by the honor code.*
+
+By accepting admission to the College, you have made a commitment to understand, support, and abide by the [Honor Code](https://www.wm.edu/honor).
+**Violations, whether attempted or successful, will result in consequences ranging from a verbal reprimand up to a failing grade for the class**.
+
+Misconduct may include, but is not limited to, the following:
+
+- cheating or using unauthorized materials on assignments
+- fabrication, forgery, alteration, or destruction of documents; hacking unauthorized resources; intimidating or bribing peers; improper collaboration or colluding; plagiarizing; or lying in order to obtain academic advantage
+- assisting others in misconduct
+- attempting misconduct
+
+
+Instant Messaging Policy
+------------------------
+- *The instant messaging app should be used for communication that either: (1) needs to reach people quickly or (2) needs a quick response.*
+
+You are free (and encouraged) to create your own GroupMe groups with classmates for better/faster communication.
+Do not use the instant messenger for spamming, soliciting or otherwise disrupting the peace.
+Be sure to change your notification settings on your mobile device to provide "Do Not Disturb" periods when sleeping or studying.
+
+
+Email Policy
+------------
+- *All personal correspondence should be made to the instructor's W&M email address ([see above](#course-syllabus)) and include the class title in the subject line.*
+
+For private inquiries, please email the instructor; the instructor will confirm each email received.
+If you do not receive a confirmation message from the instructor within 12 hours of sending, feel free to send a follow-up email.
+
+
+Make-Up Policy
+--------------
+- *There are no make-ups.*
+
+Evaluation dates should be suggested by the student and approved by the instructor.
+If, for some reason, you are unable to meet during the scheduled time or turn in your performance accomplishments on time, you may email the professor before the regularly scheduled evaluation date to reschedule it at a mutually convenient time or else receive an unsatisfactory score.
+Under rare circumstance, students may request an incomplete; the acceptance of which is at the sole discretion of the instructor.
+
+
+Standards for Submitted Work
+--------------------------
+- Written (and/or typed) work should be in English and follow, to the best of your abilities, the rules of the English language (see [Strunk & White](https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf)).
+- Written (and/or typed) work should be neat, thorough, legible, and logically organized.
+- All submitted work should include your name, date, and description.
+- Filenames should be in all lowercase and contain only alphanumeric, underscore, hyphen, and/or period characters.
+- Sketches and figures should be drawn using a straight-edge; plots and graphs should be done using a computer, where appropriate.
+- Tables, figures and images from online sources should include a citation (including the author/publisher, date created/accessed, and URL).
+- All in-text citations and references should be formatted to APA standards unless otherwise indicated.
+- Plagiarism will be taken seriously; *if you write something that is not your own original idea or in your own words, then it must be cited!* See [here](https://ctl.yale.edu/writing/using-sources/understanding-and-avoiding-plagiarism) for information on plagiarism and how to avoid it.
+- Unless otherwise stated, typed electronic files may be in one of the following acceptable open formats:
+    * [Office Open XML Document](https://en.wikipedia.org/wiki/Office_Open_XML) (.docx)
+    * [OpenDocument Text](https://en.wikipedia.org/wiki/OpenDocument) (.odt)
+    * [Portable Document Format](https://en.wikipedia.org/wiki/PDF) (.pdf)
+    * [Markdown](https://en.wikipedia.org/wiki/Markdown) (.md/.Rmd)
+    * [Markup](https://en.wikipedia.org/wiki/Markup_language) (.html/.tex)
+    * [Plain Text](https://en.wikipedia.org/wiki/Plain_text) (.txt)
+
+
+---
+
+Statements and Resources
+========================
+
+ADA Statement
+-------------
+William & Mary accommodates students with disabilities in accordance with federal laws and university policy.
+Any student who feels they may need an accommodation based on the impact of a learning, psychiatric, physical, or chronic health diagnosis should contact Student Accessibility Services staff at 757-221-2512 or at sas@wm.edu to determine if accommodations are warranted and to obtain an official letter of accommodation.
+For more information, please see https://www.wm.edu/sas.
+
+
+Copyright Statement
+-------------------
+It is requested that for each audio, video or web file, you provide an appropriate license (e.g., CC-BY; see [also](https://creativecommons.org/licenses/)), prescribing your ownership and license for use of your media files, including but not limited to your web app (.html), video web log (.mp4) and/or podcast (.mp3/.m4a/.aac/.wav).
+Failure to do so will result in a de facto "no rights reserved" license to the instructor, the department/program and the university on all works submitted.
+
+Please note that these media files may be reused for educational purposes on the course website, future Blackboard courses, or a YouTube playlist.
+
+You may contact the [CGA](mailto:cga@wm.edu) at any time to request that your media file(s) be no longer used.

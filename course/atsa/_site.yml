@@ -1,0 +1,25 @@
+name: "atsa"
+output_dir: "."
+navbar:
+    title: "DATA 330 - Applied Time Series Analysis"
+    right:
+        - text: Resources
+          menu:
+            - text: "Lexicon"
+              href: resources-lexicon.html
+            - text: "R Help"
+              href: resources-r-help.html
+        - text: Syllabus
+          href: syllabus/index.html
+        - text: DS-WM
+          href: ../../index.html
+
+output:
+    html_document:
+        toc: false
+        theme: flatly
+        highlight: pygments
+        self_contained: FALSE
+        css: "../../styles.css"
+        include:
+            after_body: ../../footer.html

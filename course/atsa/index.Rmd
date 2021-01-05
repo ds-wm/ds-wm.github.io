@@ -1,0 +1,19 @@
+---
+title: "Applied Time Series Analysis"
+pagetitle: "Applied Time Series Analysis"
+---
+
+***
+
+```{r echo=FALSE, results='asis', comment=NA}
+# Print the current date (based on local computer time)
+cat("Updated:", as.character(Sys.Date()))
+```
+
+This course is structured to teach a specific data science skill set, provide ability to perform hands-on research employing a particular method, and ultimately produce an independent research project.
+Students shall attend classroom instruction sessions twice a week to learn about and discuss relevant topics and research associated with time series analysis.
+Some of these sessions will be designated as hands-on laboratory sessions in which students write code to replicate and perform analyses using ~~Stata~~ __R__.
+The course will place a focus on the code and implementation choices necessary to perform applied time series analysis.
+Throughout the semester students shall replicate several time-series studies and provide replication code and analyses as part of their lab assignments.
+Students must apply time series skills learned throughout the course to answer their own research questions.
+Students shall brief progress on their projects throughout the semester as well as the final project and results during the last couple weeks of the semester.

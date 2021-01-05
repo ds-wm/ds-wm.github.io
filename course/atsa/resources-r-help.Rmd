@@ -1,0 +1,48 @@
+---
+title: "Resources | R Help"
+output:
+    html_document:
+        toc: true
+---
+
+***
+
+### Check Library Versions
+You can list the versions of the libraries (i.e., packages) you have loaded in your current session.
+
+1. Load the packages into the current session.
+
+    ```R
+    library("tswge")
+    ```
+1. Check the session info for a list of library names and their versions
+
+    ```R
+    sessionInfo()
+    ```
+
+### Save History File
+A part of your deliverables is to turn in your session history for assignments.
+You can save and load your command history from a current session (see [here][lshistory]).
+
+1. Save current session's history to a file.
+
+    ```R
+    savehistory(file = "Davis_2021-01-27.Rhistory")
+    ```
+1. You can load this to a new session, so as to keep a current "full log" of your coding work.
+
+    ```R
+    loadhistory(file = "Davis_2021-01-27.Rhistory")
+    ```
+
+[lshistory]: https://stat.ethz.ch/R-manual/R-patched/library/utils/html/savehistory.html
+
+### Additional Resources
+
+[R Time Series Quick Fix](https://www.stat.pitt.edu/stoffer/tsa4/R_toot.htm)
+:   This quick fix is meant to expose you to basic R time series capabilities and is rated fun for people ages 8 to 80.
+    This is NOT meant to be a lesson in time series analysis.
+
+[Time Series and Graphics in R](https://www.stat.pitt.edu/stoffer/tsa4/tsgraphics.htm)
+:   Examples of plotting time series in R using astsa and ggplot2.
