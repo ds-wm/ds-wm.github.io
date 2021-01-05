@@ -1,0 +1,16 @@
+# README
+Data Science @ William & Mary.
+
+This website is built using R's rmarkdown package.
+A convenience script (build.R) is provided in the repo.
+To create the site, simply run:
+
+    ```
+    Rscript build.R
+    ```
+
+from the commnand line.
+
+Requires the rmarkdown package.
+
+The site layout and organization are defined in the YAML file (_site.yml) and cascading style sheet (styles.css).
