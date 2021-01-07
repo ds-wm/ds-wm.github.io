@@ -7,36 +7,19 @@ output:
 
 ***
 
-### Check Library Versions
-You can list the versions of the libraries (i.e., packages) you have loaded in your current session.
+### Code Snippets
+The following code snippets provide quick tutorials on specific tools, datasets, or concepts.
+The snippets are written in R using a Jupyter Notebook hosted on a cloud environment provided by [Google Colab](https://colab.to/r).
+A Google account is required to connect and run these snippets.
 
-1. Load the packages into the current session.
 
-    ```R
-    library("tswge")
-    ```
-1. Check the session info for a list of library names and their versions
+[Install Package and Check Session Info](https://colab.research.google.com/drive/1IuULZkusjNlO-LMrPhNfiq3UGKWauDCi?usp=sharing)
+:   If you haven't already installed the `tswge` package, here's how to do it and also how to load the library into the runtime and check to see what version of each loaded package is available.
 
-    ```R
-    sessionInfo()
-    ```
+[Save and Load R History](https://colab.research.google.com/drive/1y-PPvuDylFYHzyvj8jNgJvjaxbxSH0NX?usp=sharing)
+:   For assignments (and for your own sake) you can save all the commands you have typed in an R session to a text file, typically called the .Rhistory file.
+    In this code snippet, you will see how to save your history file and load it back into a given session.
 
-### Save History File
-A part of your deliverables is to turn in your session history for assignments.
-You can save and load your command history from a current session (see [here][lshistory]).
-
-1. Save current session's history to a file.
-
-    ```R
-    savehistory(file = "Davis_2021-01-27.Rhistory")
-    ```
-1. You can load this to a new session, so as to keep a current "full log" of your coding work.
-
-    ```R
-    loadhistory(file = "Davis_2021-01-27.Rhistory")
-    ```
-
-[lshistory]: https://stat.ethz.ch/R-manual/R-patched/library/utils/html/savehistory.html
 
 ### Additional Resources
 
