@@ -29,6 +29,10 @@ Prerequisites
 
 :   - "Programming for Data Science" (DATA 141 or CSCI 140) or "Computational Problem Solving" (CSCI 141)
 
+Co-requisites
+
+:   - You are recommended (but not obliged) to take this course alongside "Probability & Statistics for Scientists" (MATH 351), "Statistical Data Analysis" (MATH 352) or equivalent
+
 Semester
 
 :   - Spring 2021 (2021-Jan-27 to 2021-May-18)
@@ -130,8 +134,13 @@ Technology
 
 Course Objectives
 =================
-1.
+1. Learn a specific data science skill
+1. Perform research employing a particular method
+1. Produce an independent research project
 
+How these are interpreted
+-------------------------
+_TBA_
 
 What you should already know
 ----------------------------
