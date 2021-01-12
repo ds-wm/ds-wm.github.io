@@ -12,72 +12,68 @@ Autocorrelation ($\rho$)
 Autocovariance ($\gamma$)
 :   - covariance within the same time series
 
+Cauchy-Schwarz inequality
+:   - see https://en.m.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality
+
 Correlation
 :   - the degree to which two variables are linearly related; see also Pearson correlation coefficient
 
 Covariance
 :   - the measure of joint variability of two random variables; positive, negative or near zero
 
-Stochastic
-:   - a collection of indexed random variables from the same sample space
+Continuous parameter
+:   - a numeric parameter that can take any value from a specified range of values, for example $T = (-\infty, \infty)$; compare against a **discrete** parameter
 
 Deterministic
 :   - TBA
+
+Discrete parameter
+:   - a numeric parameter that can take any value from a specified range of values, limited by a minimum permissible distance between each value, for example $T = \{0, \pm1, \pm2, ...\}$; compare against a **continuous** parameter
+
+Ensemble
+:   - the collection of all possible realizations
+
+Ergodic
+:   - a process whose ensemble averages can be consistently estimated from a single observation (e.g., u(t) doesn't depend on t)
+
+Gaussian (normal)
+:   - TBA
+
+Identically distributed
+:   - a collection of random variables where each random variable has the same probability distribution as the others; if these random variables are also mutually independent, they may be given the shorthand notation IID
+
+Mean ($\mu$)
+:   - the expected value (E) or first raw moment of a real-valued random variable (e.g., $X(t)$), oftentimes denoted: $E[X(t)]$
+
+Observation
+:   - a real number from a given random variable
 
 Probabilistic
 :   - TBA
 
 Random variable
-:   - TBA
+:   - a variable whose values depend on outcomes of a random process; it can be thought of as a function that is defined in some sample space whose range is the real numbers
 
-Real number
-:   - TBA
-
-Mean ($\mu$)
-:   - the expected value (E) or first raw moment of a real-valued random variable (e.g., $X(t)$), oftentimes denoted: $E[X(t)]$
-
-Time series
-:   - a stochastic process where the indexes represent time
-
-Continuous
-:   - TBA
-
-Discrete
-:   - TBA
-
-Observation
-:   - TBA
+Real number (${\rm I\!R}$)
+:   - a value from a continuous quantity that can represent a distance along a line (includes all positive and negative rational and irrational numbers)
 
 Realization
-:   - a set of real-valued outcomes
-
-Ensemble
-:   - the collection of all possible realizations
+:   - a set of real-valued outcomes for a random variable at a fixed location in the random variable's sample space; compare against an **ensemble**
 
 Stationary
 :   - a process that is in a state of statistical equilibrium; examples include strict stationarity, covariance stationarity
 
-Ergodic
-:   - a process whose ensemble averages can be consistently estimated from a single observation (e.g., u(t) doesn't depend on t)
+Stochastic process
+:   - a collection of indexed random variables from the same sample space
+
+Time series
+:   - a special type of stochastic process where the sample space represents time
+
+Univariate
+:   - having or involving a single variable
+
+Variance ($\sigma^2$)
+:   - the expected value of the squared deviation from the mean; see also [here](https://en.m.wikipedia.org/wiki/Variance) and [here](https://en.m.wikipedia.org/wiki/Algorithms_for_calculating_variance)
 
 White noise
 :   - TBA
-
-Identically distributed
-:   - TBA
-
-Gaussian (normal)
-:   - TBA
-
-Variance ($\sigma^2$)
-:   - the expected value of the squared deviation from the mean; https://en.m.wikipedia.org/wiki/Variance; https://en.m.wikipedia.org/wiki/Algorithms_for_calculating_variance
-
-Cauchy-Schwarz inequality
-:   - see https://en.m.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality
-
-***
-
-R
-CRAN
-Command line
-Script
