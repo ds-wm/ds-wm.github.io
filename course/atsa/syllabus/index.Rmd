@@ -156,7 +156,7 @@ LO#2 emphasizes our ability to recognize time series data and the classical meth
 To accomplish this objective, we will investigate published methods and (attempt) to reproduce them.
 
 LO#3 was a curve ball when I read it.
-I hoped that this could be more of classical lecture, but there you go.
+My original intention was that this would be more of a classical lecture style class, but there you go.
 Now we have an independent research task tacked on to this course.
 My goal is to narrow the scope and limit the data to give this more structure all while allowing you to make independent choices on your data and methods.
 We'll see how this goes.
@@ -219,12 +219,12 @@ Each check you get is worth a certain number of points, based on the following t
 | Category | Points |
 | :------- | -----: |
 | Lessons  | 0 pt |
-| Exercises | 1 pt |
+| Exercises | 2 pt |
 | Labs | 2 pt |
 | Exams | 2 pt |
 | Discussions | 2 pt |
 | Notes | 1 pt |
-| Research Project | 2 pt |
+| Research Project | 1 pt |
 
 Exercises
 :   Exercises should be completed using either the R command line or RStudio.
@@ -236,7 +236,8 @@ Exercises
     All exercises are due on or before the exam due date for a given block.
     Use your GitHub username and block number to name your files, for example: block 1 exercises should be titled: `dt-woods_b1.R` and `dt-woods_b1.Rhistory`.
 
-    If you have submitted exercises for all three blocks, they were submitted on time, they produce the expected outputs and run without errors, you will receive a check.
+    Two of the three exercise scripts will be assessed (chosen randomly; you do not get to choose which ones).
+    Exercises that are submitted on time and you fixed any problems (based on feedback) such that they produce the expected outputs and run without errors, receive a check.
     Exercises that are late, incomplete, or throw errors will not receive a check.
 
     _Be sure to test your R scripts!_
@@ -286,7 +287,7 @@ Discussions
 :   We will examine and review at least one published article for each of the three blocks.
     Discussions are assessed based on your participation, which may consist of any of the following:
 
-    1. Actually talking and sharing your ideas and opinions during a live class session
+    1. Actually talking and sharing your ideas and opinions during one or more live class sessions
     1. Typing your thoughts and opinions in the discussion board on Blackboard (limit 500 words)
     1. Recording your thoughts and opinions and posting the audio file in the discussion board on Blackboard (limit 5 minutes)
 
@@ -304,7 +305,17 @@ Notes
     Submitting a complete set of notes in a single markdown file for your block results in a check.
 
 Independent Project
-:   A musical application of time series analysis.
+:   This semester, we will examine the application of time series analysis to audio files.
+    You may choose the scope of your analysis and the song.
+    The structure of the independent project follows the same structure and guidelines as a lab; therefore, it should be written up in a Jupyter Notebook, consist of specific sections, include references, and adhere to the Standards for Submitted Work.
+
+    Additionally, you will create either a podcast (audio) or vlog (video) not to exceed 10 minutes in length that summarizes your project.
+
+    A successful independent research project is measured by:
+
+    1. An informative and well-documented introduction to your study.
+    1. A logical and reproducible methodology (however complete).
+    1. An insightful reflection on methods, challenges, and what you were able to accomplish.
 
 ---
 
