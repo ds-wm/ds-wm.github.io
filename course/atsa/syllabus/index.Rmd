@@ -64,7 +64,7 @@ Delivery
 
 :   - Course will delivered [RSOF](https://www.wm.edu/offices/registrar/facstaff/academicscheduling/instr_del_catgs/index.php), which is fully remote and predominantly synchronous, off campus.
     - Some aspects of the class (e.g., lectures, lessons, or demonstrations) will be made available as a recording for to watch either before or after class
-    - Synchronous class sessions __will not__ be recorded; you are responsible for missed content
+    - Synchronous class sessions __will not__ necessarily be recorded; you are responsible for missed content
 
 Final Exam Period
 
@@ -216,15 +216,18 @@ Each check you get is worth a certain number of points, based on the following t
 
 :   Table 1. Check categories and their associated point values.
 
-| Category | Points |
-| :------- | -----: |
-| Lessons  | 0 pt |
-| Exercises | 2 pt |
-| Labs | 2 pt |
-| Exams | 2 pt |
-| Discussions | 2 pt |
-| Notes | 1 pt |
-| Research Project | 1 pt |
+| Category         | Number of Checks | Points           |
+| :--------------- | ---------------: | ---------------: |
+| Engagement       |                0 |             0 pt |
+| Exercises        |                2 |             2 pt |
+| Labs             |                2 |             2 pt |
+| Exams            |                2 |             2 pt |
+| Discussions      |                1 |             2 pt |
+| Notes            |                1 |             1 pt |
+| Research Project |                1 |             1 pt |
+
+Engagement
+:   While engagement does not count toward your final score, it may count against your maximum possible grade (see [Engagement Policy](#engagement-policy) for more details).
 
 Exercises
 :   Exercises should be completed using either the R command line or RStudio.
@@ -235,14 +238,18 @@ Exercises
 
     All exercises are due on or before the exam due date for a given block.
     Use your GitHub username and block number to name your files, for example: block 1 exercises should be titled: `dt-woods_b1.R` and `dt-woods_b1.Rhistory`.
+    Please submit only your own work.
+
+    Your instructor may test your scripts and provide feedback to you.
+    If you receive feedback that requests you to make changes to your script, please do so within one week of feedback.
 
     Two of the three exercise scripts will be assessed (chosen randomly; you do not get to choose which ones).
-    Exercises that are submitted on time and you fixed any problems (based on feedback) such that they produce the expected outputs and run without errors, receive a check.
-    Exercises that are late, incomplete, or throw errors will not receive a check.
+    Exercises that are submitted on time and that you fixed any problems with (based on instructor feedback) such that they produce the expected outputs and run without errors, receive a check.
+    Exercises that are late, incomplete, or throw unexpected errors will not receive a check.
 
     _Be sure to test your R scripts!_
 
-    You are free to collaborate on class exercises, but you are expected to submit your own work (see [Coursework Policy][#coursework-policy]).
+    You are free to collaborate on class exercises, but you are expected to submit your own work (see [Coursework Policy](#coursework-policy)).
 
 Labs
 :   Labs should be completed using the R kernel in Google Colab; it is free to use with a Google account, such as the account associated with your W&M email.
@@ -260,20 +267,20 @@ Labs
     Notebooks are expected at minimum to meet the following:
 
     1. be formatted correctly,
-    1. be written in English with minimal typos (see [Standards for Submitted Work][#standards-for-submitted-work]),
+    1. be written in English with minimal typos (see [Standards for Submitted Work](#standards-for-submitted-work)),
     1. include working links to datasets,
-    1. include code blocks that execute without errors,
-    1. include figures that adhere to the guidelines given,
+    1. include code blocks that execute without errors (please note at the top of your notebook if any packages need to be installed),
+    1. include figures that adhere to the guidelines given in the instructions,
     1. include references, each with appropriate in-text citations,
     1. include captions for all tables and figures, and
     1. include responses that answer the question(s) asked.
 
     All labs are due on or before the exam due date for a given block.
     Two of the three labs will be assessed (chosen randomly; you do not get to choose which ones).
-    If they meet the criteria, each will receive a check worth 1 pt.
-    Late labs, incomplete labs, or labs that fall short of expectations will not receive a check.
+    If they meet the criteria, each will receive a check.
+    Late labs, incomplete labs, or labs that fall short of the expectations outlined above will not receive a check.
 
-    You are free to collaborate on lab assignments, but ultimately it should reflect your thoughts, methods, and conclusions (see [Coursework Policy][#coursework-policy]).
+    You are free to collaborate on lab assignments, but ultimately it should reflect your thoughts, methods, and conclusions (see [Coursework Policy](#coursework-policy)).
 
 Exams
 :   Exams will be given near the end of each of the three main topic blocks and consist of one or more questions.
@@ -302,7 +309,7 @@ Notes
     These notes should be neat, organized, formatted in markdown and titled using your GitHub name and block number (e.g., `dt-woods_notes-b1.md`) and uploaded to GitHub at least 48 hours before the exam due date.
     Notes serve as a study guide for all students and help by providing additional perspectives, methods, and note-taking styles.
 
-    Submitting a complete set of notes in a single markdown file for your block results in a check.
+    An on-time submission of a complete set of notes in a single markdown file for your assigned block results in a check.
 
 Independent Project
 :   This semester, we will examine the application of time series analysis to audio files.
@@ -315,31 +322,38 @@ Independent Project
 
     1. An informative and well-documented introduction to your study.
     1. A logical and reproducible methodology (however complete).
-    1. An insightful reflection on methods, challenges, and what you were able to accomplish.
+    1. An insightful reflection on your methods, challenges, and what you were able to accomplish.
 
----
+Grading Scale
+-------------
+The final letter grade is based on the point total (see __check system__ [above](#how-this-class-is-assessed)) as shown in the following table.
 
-# Course Topics
-The following are a list of topics that will, time provided, be covered during the term.
+The instructor reserves the right to adjust a student's final grade by one-half step (e.g., a student that received a score that would give them a C, it could be raised to a C+ or lowered to a C--), so long as the final grade is not lowered below a D or raised higher than an F.
 
+:   Table 2. Letter grade allocations.
 
-* GIS Specialists versus Developers
-* Geoethics
-* GIS workflows and design
-* Geocoding, geofencing and other geoprocesses
-* Markdown text formatting
-* Python programming language
-* Arcade expression language
-* JavaScript programming language
-* Web applications for the geosciences
-* Programmatic approaches to managing geospatial data
-* Programmatic approaches to solving geospatial problems
+| Points       | Letter Grade |
+| ------------ | ------------ |
+| 9--10  | A |
+| 7--9   | B |
+| 4--7   | C |
+| 2--4   | D |
+| 0--2   | F |
 
 ---
 
 Course Calendar
 ===============
-This semester, each week will consist of at least five discussion topics, potential readings and responses, and a weekly write-up.
+The tentative schedule for the main three course topics are as follows.
+
+:   Table 3. Course schedule and due dates.
+
+| Topic         | Dates         | Exam Due Date | Notes Due Date |
+| :-----------: | :-----------: | :-----------: | :------------: |
+| Intro to TS & R | 1/28 to 3/02 (10 classes) | Wednesday, 3 March at 9 AM | Monday, 1 March at 9 AM |
+| Data Analysis | 3/09 to 4/01 (8 classes) | Friday, 2 April at 9 AM | Wednesday, 31 March at 9 AM |
+| Modeling & Prediction | 4/08 to 5/06 (9 classes) | Friday, 7 May at 9 AM | Wednesday, 5 May at 9 AM |
+| Research Project | (semester long) | Monday, 10 May 2--5 PM | N/A |
 
 
 Important Dates
@@ -362,10 +376,6 @@ Last day of term
 Last day of exams
 :   - 18 May 2021
 
-Final evaluations
-:   - Final evaluations must be scheduled with your instructor on or before the last day of exams.
-    - Performance Accomplishments are due at least 24 hours before your scheduled evaluation.
-
 ---
 
 Standards & Policies
@@ -385,9 +395,9 @@ Remember these things as you work together:
     This comes from the fact that it is almost impossible to portray our feelings or intended meaning behind typed text.
     If something offends you, take a breath, be cordial and ask for clarification before unleashing your wrath (BTW: you shouldn't unleash your wrath).
     That being said, also do not be a silent witness.
-    If something offends you, let everyone know.
+    If something offends you, let it be known.
     We will never learn from our mistakes if our mistakes are never pointed out.
-    If malicious actions continue, the instructor will manage it.
+    If malicious actions continue, I, your instructor, will manage it.
 2. "There is no innovation and creativity without failure. Period."
 
     You are a college student registered in a college class.
@@ -396,29 +406,32 @@ Remember these things as you work together:
     If you want to try something, try it and let everyone know what you are up to.
     Best case scenario, your innovations spark new insight.
     Worst case scenario, we all learn something from your efforts.
-    Remember: there are no right answers to these projects---just creative approaches, innovative designs and happy accidents---so don't be afraid to make a mistake.
+    Don't be afraid to make a mistake.
     It's better to aim high for something that will make a difference rather than to play it safe with something easy.
 3. Ask lots of questions.
 
     Questions are cheap, so ask a lot of them.
-    When asking questions, remember to always strive for clarity.
+    When asking questions, remember to strive for clarity.
     If you don't know something or your aren't sure, just ask.
-    Sometimes, knowing the right question to ask is just as difficult as finding the answer.
+    Sometimes, knowing the right question to ask is just as difficult as finding the right answer.
     When you find yourself here, please send up a flare or simply say "I'm lost."
-    We will get you back on track.
+    I will help you get back on track.
 4. Focus on opportunities.
 
     Remember: this is not a race and you are not a judge, so don't get caught up with critiquing or competing with each other.
     Provide your opinions and perspectives and then actually take the time to read the opinions and perspectives of others.
     Challenge yourself to see things differently and try things differently.
-    Ignore your desire to be correct or to correct someone else and try not to contradict people; they don't like it and biologically it shuts down their ability to see things logically.
+    Ignore your desire to be correct or to correct someone else and try not to contradict one another; we don't like it and, biologically, it shuts down our ability to see things logically.
 5. Document and share everything.
 
     While it may feel natural to keep your work private, projects really thrive when you document your process publicly.
-    By writing things down and sharing them, more people can participate along the way and you might get help on something you didn't even know you needed.
-    This leads to more things being documented, which produces a better project roadmap, which leads to better transparency and feedback, which leads to good decision making and faster/better results.
+    By writing things down and sharing them, more people can participate along the way and, occasionally, you yourself might receive help on something you didn't even know you needed.
+    This leads to more things being documented, which leads to better transparency and feedback, which leads to good decision making and faster/better results.
 
     We cannot manage what we do not measure: so digitize your process!!!
+
+    This is why I have chosen to use GitHub for exercises and lab assignments.
+    It allows us to share our methods.
 6. Everyone is bound to uphold a policy of respect for their instructor and their peers.
     Students should be open-minded to new ideas and participate in collegiate debate, the sharing of ideas, and the receiving of feedback without defamatory remarks.
     Students should help maintain a healthy learning environment by refraining from negative behavior, such as harmful remarks, quibbling over trivial matters, creating unnecessary debates, or bullying.
@@ -428,14 +441,19 @@ Remember these things as you work together:
 
 Engagement Policy
 -----------------
-- *Weekly virtual engagement is required.*
+- *Weekly virtual engagement is expected.*
 
-In this asynchronous virtual classroom, engagement is defined loosely as your interaction with one or more of the web-based communication tools.
+While it is not required that you attend regular class meetings, if you choose to not attend class (i.e., you have more than two unexcused absences), your final grade cannot be an A.
 
-It is expected that you interact at a minimum with the posted discussions, chats, issues, emails, and/or video conferencing once a week.
-Failure to do so may negatively influence your final grade.
+Excused absences include any and all college related events (e.g., athletic events, conferences, field trips, screening appointments and mandatory quarantine).
+Please make any and all planned absences of this sort known to your instructor at the earliest possible time.
 
-Please make any and all planned absences (e.g., field trips, vacations, athletic events) that would result in you not being able to meet this minimum interaction known to your instructor at the earliest possible time.
+Additionally, you are excused two personal days without question.
+
+You cannot be counted absent on days when class does not meet or when campus is closed.
+
+If you are unable to make to a regularly scheduled class meeting but you are still able to have positive interaction with the class (e.g., through posted discussions, chats, issues, or other electronic communication), then your absence will not be counted against you.
+Consideration for this type of engagement needs to be communicated and approved with your instructor.
 
 
 Coursework Policy
@@ -457,14 +475,14 @@ Instant Messaging Policy
 ------------------------
 - *The instant messaging app should be used for communication that either: (1) needs to reach people quickly or (2) needs a quick response.*
 
-You are free (and encouraged) to create your own GroupMe groups with classmates for better/faster communication.
+You are free (and encouraged) to use the instant messaging platform for better/faster communication.
 Do not use the instant messenger for spamming, soliciting or otherwise disrupting the peace.
 Be sure to change your notification settings on your mobile device to provide "Do Not Disturb" periods when sleeping or studying.
 
 
 Email Policy
 ------------
-- *All personal correspondence should be made to the instructor's W&M email address ([see above](#course-syllabus)) and include the class title in the subject line.*
+- *All personal correspondence should be made to the instructor's W&M email address ([see above](#course-description)) and include the class title in the subject line.*
 
 For private inquiries, please email the instructor; the instructor will confirm each email received.
 If you do not receive a confirmation message from the instructor within 12 hours of sending, feel free to send a follow-up email.
@@ -474,29 +492,35 @@ Make-Up Policy
 --------------
 - *There are no make-ups.*
 
-Evaluation dates should be suggested by the student and approved by the instructor.
-If, for some reason, you are unable to meet during the scheduled time or turn in your performance accomplishments on time, you may email the professor before the regularly scheduled evaluation date to reschedule it at a mutually convenient time or else receive an unsatisfactory score.
-Under rare circumstance, students may request an incomplete; the acceptance of which is at the sole discretion of the instructor.
+Due dates for all assessment materials are posted (see [Course Calendar](#course-calendar)).
+Unexcused late submissions will be treated as such (see [How this class is assessed](#how-this-class-is-assessed)).
+
+All reasonable requests for extensions on submission deadlines are to be made to your instructor in person (or through virtual conferencing).
+Appointments must be held before original due dates.
+The acceptance of late submissions will be evaluated on an individual basis and is at the sole discretion of the instructor.
+
+
+Digital Recording Policy
+------------------------
+- *Sharing photos or videos of this class is not permitted.*
+
+Due to privacy laws/concerns, the recording of people and/or their voices during class meetings in any form is prohibited.
+The sharing of any class recordings is also prohibited.
+
+Exceptions to this policy come only from the Academic Support office that require compliance with the ADA.
+Please make all requests known to your instructor as soon as possible.
 
 
 Standards for Submitted Work
 ----------------------------
 - Written (and/or typed) work should be in English and follow, to the best of your abilities, the rules of the English language (see [Strunk & White](https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf)).
 - Written (and/or typed) work should be neat, thorough, legible, and logically organized.
-- All submitted work should include your name, date, and description.
+- All submitted work should include your name, date, and description of the assignment.
 - Filenames should be in all lowercase and contain only alphanumeric, underscore, hyphen, and/or period characters.
-- Sketches and figures should be drawn using a straight-edge; plots and graphs should be done using a computer, where appropriate.
+- Plots and graphs should be done using a computer, where appropriate.
 - Tables, figures and images from online sources should include a citation (including the author/publisher, date created/accessed, and URL).
 - All in-text citations and references should be formatted to APA standards unless otherwise indicated.
 - Plagiarism will be taken seriously; *if you write something that is not your own original idea or in your own words, then it must be cited!* See [here](https://ctl.yale.edu/writing/using-sources/understanding-and-avoiding-plagiarism) for information on plagiarism and how to avoid it.
-- Unless otherwise stated, typed electronic files may be in one of the following acceptable open formats:
-    * [Office Open XML Document](https://en.wikipedia.org/wiki/Office_Open_XML) (.docx)
-    * [OpenDocument Text](https://en.wikipedia.org/wiki/OpenDocument) (.odt)
-    * [Portable Document Format](https://en.wikipedia.org/wiki/PDF) (.pdf)
-    * [Markdown](https://en.wikipedia.org/wiki/Markdown) (.md/.Rmd)
-    * [Markup](https://en.wikipedia.org/wiki/Markup_language) (.html/.tex)
-    * [Plain Text](https://en.wikipedia.org/wiki/Plain_text) (.txt)
-
 
 ---
 
@@ -510,11 +534,15 @@ Any student who feels they may need an accommodation based on the impact of a le
 For more information, please see https://www.wm.edu/sas.
 
 
+Academic Support Services
+-------------------------
+- [Student Accessibility Services](https://www.wm.edu/sas)
+- [Tribe TutorZone](https://www.wm.edu/offices/deanofstudents/services/academicenrichment/tutors/)
+- [Writing Resources Center](https://www.wm.edu/as/wrc/)
+
+
 Copyright Statement
 -------------------
-It is requested that for each audio, video or web file, you provide an appropriate license (e.g., CC-BY; see [also](https://creativecommons.org/licenses/)), prescribing your ownership and license for use of your media files, including but not limited to your web app (.html), video web log (.mp4) and/or podcast (.mp3/.m4a/.aac/.wav).
-Failure to do so will result in a de facto "no rights reserved" license to the instructor, the department/program and the university on all works submitted.
+Your enrollment in this class means that you grant a "no rights reserved" license to the instructor, the department/program, and the university on all works submitted towards the completion of this class.
 
-Please note that these media files may be reused for educational purposes on the course website, future Blackboard courses, or a YouTube playlist.
-
-You may contact the [CGA](mailto:cga@wm.edu) at any time to request that your media file(s) be no longer used.
+Any work submitted that is not your own must include an accompanying citation.
