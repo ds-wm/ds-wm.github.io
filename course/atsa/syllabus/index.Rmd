@@ -334,11 +334,16 @@ The instructor reserves the right to adjust a student's final grade by one-half 
 
 | Points       | Letter Grade |
 | ------------ | ------------ |
-| 9--10  | A |
-| 7--9   | B |
-| 4--7   | C |
-| 2--4   | D |
-| 0--2   | F |
+| 10  | A |
+| 9   | A- |
+| 8   | B+ |
+| 7   | B |
+| 6   | C+ |
+| 5   | C  |
+| 4   | C- |
+| 3   | D+ |
+| 2   | D  |
+| <2  | F  |
 
 ---
 
