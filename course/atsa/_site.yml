@@ -3,6 +3,10 @@ output_dir: "."
 navbar:
     title: "DATA 330 - Applied Time Series Analysis"
     right:
+        - text: Lectures
+          menu:
+            - text: "Introduction"
+              href: "lectures/intro-to-ts/index.html"
         - text: Resources
           menu:
             - text: "Lexicon"
