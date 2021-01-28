@@ -1,0 +1,9 @@
+revealjs::revealjs_presentation:
+    center: true
+    slide_level: 1
+    theme: beige
+    transition: fade
+    fig_caption: true
+    css: style.css
+    self_contained: false
+    reveal_plugins: ["notes"]

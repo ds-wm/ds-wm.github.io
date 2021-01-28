@@ -1,0 +1,215 @@
+---
+author: "Tyler W. Davis"
+date: January 28, 2021
+pagetitle: "ATSA | Intro to Time Series"
+---
+
+# Applied Time Series Analysis
+DATA 330 | Spring 2021
+
+---
+
+- <span class="fragment">Join **Slack**, **GroupMe** or both</span>
+- <span class="fragment">Join **GitHub** team</span>
+- <span class="fragment">Review [syllabus][syllabus]</span>
+- <span class="fragment">Listen to a little philosophy</span>
+
+[syllabus]: https://ds-wm.github.io/course/atsa/syllabus/index.html
+
+---
+
+Questions?
+
+# Why Time Series?
+
+<div class="fragment">
+Why do we care about time series in data science?
+</div>
+
+<aside class="notes">
+- N/A
+</aside>
+
+***
+
+1. <span class="fragment">Data science is the field that finds patterns in data.</span>
+1. <span class="fragment">A time series is a special type of data.</span>
+1. <span class="fragment">We use special tools to find patterns in time series.</span>
+
+***
+
+But why?
+
+***
+
+Modeling.
+
+***
+
+Why?
+
+***
+
+I can think of two cases:
+
+<div class="fragment">
+First, there's big data.
+</div>
+
+***
+
+Big data
+:   any collection of data that is too big to be held in the memory of your computer
+
+***
+
+"Resolution" or "number of samples" are not "big data."
+
+***
+
+The four V's of big data.
+
+- V<span class="fragment">olume</span>
+- V<span class="fragment">elocity</span>
+- V<span class="fragment">ariety</span>
+- V<span class="fragment">eracity</span>
+
+<aside class="notes">
+- NASA collections hundreds of terabytes each hour
+</aside>
+
+***
+
+Focus on the "hows" and "whys"<br />and not the results to explain what we depict.
+
+***
+
+For example:
+
+["Massive Dataset Analysis for Geoscience Data"](https://ui.adsabs.harvard.edu/abs/2013AGUFMNG32A..04B/abstract)
+
+<div style="text-align:left;">
+> <small>"One approach is to reduce data in a way that preserves spatial, <span class="fragment highlight-red">temporal</span>, and inter-scale structures via discrete <span class="fragment highlight-red">probability distribution</span> estimates associated with cells of space-time grids at different resolutions.
+> It is then possible to study relationships between cells at different scales.
+> Data are stratified [...] to form subsets.
+> Each subset is reduced using a <span class="fragment highlight-red">clustering algorithm</span> [...].
+> The clusters' centroids and populations define a set of discrete probability distributions, which become the fundamental units for data analysis."
+> -- AJ Braverman, Jet Propulsion Laboratory, CA</small>
+
+</div>
+
+<small>
+<span class="fragment">We see evidence of time series + data science.</span>
+</small>
+
+<aside class="notes">
+- This approach of simplifying big data by modeling their probability distributions instead of characterizing their mean plus/minus variance.
+</aside>
+
+***
+
+Imagine having only to store data models<br />in place of big data.
+
+***
+
+There's a popular belief that all data is a mixture of parametric structures and stochastic noise.
+
+<div class="fragment">
+<small>
+When the shared sample space for the stochastic process is time,<br />we refer to this data as a **time series**.
+</small>
+</div>
+
+***
+
+Which brings us to my second case ...
+
+<span class="fragment">forecasting.</span>
+
+***
+
+If there truly are patterns in data and we know what happened in the past, <span class="fragment">can we predict the future?</span>
+
+***
+
+<section data-background-image="img/forecast-1.png" data-background-size="contain">
+
+<aside class="notes">
+Figure 6.5 from Woodward et al. (2017). Forecasting of ARMA(0,1,0) model w/ 95% confidence intervals for a random walk dataset.
+</aside>
+</section>
+
+***
+
+<section data-background-image="img/forecast-2.png" data-background-size="contain">
+<aside class="notes">
+Using long short-term memory (LSTM) modeling of sun spots.
+
+Reference:
+
+- https://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html
+</aside>
+</section>
+
+***
+
+What's so great about predictions?
+
+***
+
+
+
+[&pi;](https://www.imdb.com/title/tt0138704/)
+
+<small>
+Restate my assumptions:
+
+1. Mathematics is the language of nature.
+1. Everything around us can be represented and<br />understood through numbers.
+1. If you graph the number of any system patterns emerge;<br />therefore, there are patterns everywhere in nature.
+
+Evidence:
+
+* The cycling of disease epidemics.
+* The wax and wane of caribou populations.
+* Sunspot cycles.
+* The rise and fall of the Nile.
+
+<span class="fragment">So what about the stock market?</span>
+</small>
+
+<aside class="notes">
+From the 1998 Darren Aronofsky film Pi.
+
+No, the pi symbol is not the backdoor to the Gatekeeper security program (from The Net).
+</aside>
+
+***
+
+We're not there <span class="fragment">yet.</span>
+
+***
+
+Over the next 15 weeks, I'd like to
+
+* Discuss and examine the fundamentals of time series data
+* Look at some challenges in real world time series data
+* Introduce modeling and forecasting of times series data
+
+***
+
+**WARNING**: There's a lot of math in our textbook.
+
+***
+
+We'll have opportunities for discussions.
+
+<small>
+Sorry about the pacing.
+It's going to be off.
+</small>
+
+***
+
+Okay.
+Let's begin.
