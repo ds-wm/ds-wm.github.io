@@ -1,0 +1,8 @@
+---
+title: "Lectures"
+---
+
+***
+
+[1. Introduction to Time Series](lectures/intro-to-ts/index.html)
+:   A look at why we care about time series in data science with a few examples.

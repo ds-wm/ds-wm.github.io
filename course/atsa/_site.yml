@@ -4,15 +4,15 @@ navbar:
     title: "DATA 330 - Applied Time Series Analysis"
     right:
         - text: Lectures
-          menu:
-            - text: "Introduction"
-              href: "lectures/intro-to-ts/index.html"
+          href: lectures.html
         - text: Resources
           menu:
             - text: "Lexicon"
               href: resources-lexicon.html
             - text: "R Help"
               href: resources-r-help.html
+            - text: "Links"
+              href: resources-links.html
         - text: Syllabus
           href: syllabus/index.html
         - text: DS-WM

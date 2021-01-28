@@ -1,0 +1,46 @@
+---
+title: "Resources | Links"
+---
+
+***
+
+### R and RStudio
+
+[R](https://cran.r-project.org/)
+:   A freely available language and environment for statistical computing and graphics.
+
+[RStudio Desktop](https://rstudio.com/products/rstudio/)
+:   RStudio Desktop (Free) is an integrated development environment (IDE) for R.
+    It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
+
+***
+
+### Markdown
+
+[\&what\;](http://www.amp-what.com/unicode/search/)
+:   A quick, interactive reference of 14,500 HTML character entities and common Unicode characters, 8859-1 characters, quotation marks, punctuation marks, accented characters, symbols, mathematical symbols, and Greek letters, icons, and markup-significant & internationalization characters.
+
+[Basic Syntax](https://www.markdownguide.org/basic-syntax)
+:   The Markdown elements outlined in John Gruber's design document.
+
+[Colab Markdown Guide](https://colab.research.google.com/notebooks/markdown_guide.ipynb?authuser=1)
+:   Colab has two types of cells: text and code.
+    Text cells are formatted using a simple markup language called Markdown.
+    This notebook walks you through the basic syntax and how it appears once rendered.
+
+[Linking Images to Markdown Files](https://spatial-data-discovery.github.io/resources-methods.html#linking-images-to-markdown-files)
+:   In order for images to appear on your web page that is rendered from markdown, you need a publicly accessible URL for the image.
+    This guide shows you have to access these links from images stored in Dropbox, Drive, and Wikimedia.
+
+[R Markdown Cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+:   (PDF) Condensed info on formatting with markdown in R.
+
+[Stackedit.io](https://stackedit.io/)
+:   An in-browser markdown editor and processor.
+    Note that there are likely minor variations and discrepancies between Markdown processors.
+
+[Thesaurus of Mathematical Languages](http://mathesaurus.sourceforge.net/)
+:   A quick reference of mathematical computation environments for computer algebra, numeric processing, and data visualization including synonymous commands in MATLAB, Python, R, and others.[^gunderson08]
+
+
+[^gunderson08]: Copyright &copy;2006,2008 Vidar Bronken Gundersen, http://mathesaurus.sf.net/.
