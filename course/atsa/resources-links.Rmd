@@ -32,6 +32,9 @@ title: "Resources | Links"
 :   In order for images to appear on your web page that is rendered from markdown, you need a publicly accessible URL for the image.
     This guide shows you have to access these links from images stored in Dropbox, Drive, and Wikimedia.
 
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+:   Adam Pritchard's quick reference and showcase of Markdown on GitHub.
+
 [R Markdown Cheatsheet](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 :   (PDF) Condensed info on formatting with markdown in R.
 
