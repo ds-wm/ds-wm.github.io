@@ -16,6 +16,9 @@ A Google account is required to connect and run these snippets.
 [Install Package and Check Session Info](https://colab.research.google.com/drive/1IuULZkusjNlO-LMrPhNfiq3UGKWauDCi?usp=sharing)
 :   If you haven't already installed the `tswge` package, here's how to do it and also how to load the library into the runtime and check to see what version of each loaded package is available.
 
+[Plot GPX Data](https://colab.research.google.com/drive/1HTY5wuII0AlJY2EtkqhBqKp_f7KRk__3?usp=sharing)
+:   In this code snippet, we look at how to read and parse an XML-based GPX data file to extract the timestamps and plot speed against time.
+
 [Save and Load R History](https://colab.research.google.com/drive/1y-PPvuDylFYHzyvj8jNgJvjaxbxSH0NX?usp=sharing)
 :   For assignments (and for your own sake) you can save all the commands you have typed in an R session to a text file, typically called the .Rhistory file.
     In this code snippet, you will see how to save your history file and load it back into a given session.
