@@ -526,6 +526,13 @@ Standards for Submitted Work
 - Tables, figures and images from online sources should include a citation (including the author/publisher, date created/accessed, and URL).
 - All in-text citations and references should be formatted to APA standards unless otherwise indicated.
 - Plagiarism will be taken seriously; *if you write something that is not your own original idea or in your own words, then it must be cited!* See [here](https://ctl.yale.edu/writing/using-sources/understanding-and-avoiding-plagiarism) for information on plagiarism and how to avoid it.
+- Unless otherwise stated, electronic submissions may be in one of the following acceptable open file formats:
+    * [Office Open XML Document](https://en.wikipedia.org/wiki/Office_Open_XML) (.docx)
+    * [OpenDocument Text](https://en.wikipedia.org/wiki/OpenDocument) (.odt)
+    * [Portable Document Format](https://en.wikipedia.org/wiki/PDF) (.pdf)
+    * [Markdown](https://en.wikipedia.org/wiki/Markdown) (.md/.Rmd)
+    * [Markup](https://en.wikipedia.org/wiki/Markup_language) (.html/.tex)
+    * [Plain Text](https://en.wikipedia.org/wiki/Plain_text) (.txt)
 
 ---
 
