@@ -19,6 +19,9 @@ A Google account is required to connect and run these snippets.
 [Plot GPX Data](https://colab.research.google.com/drive/1HTY5wuII0AlJY2EtkqhBqKp_f7KRk__3?usp=sharing)
 :   In this code snippet, we look at how to read and parse an XML-based GPX data file to extract the timestamps and plot speed against time.
 
+[Reading and Processing Data for Lab 1](https://colab.research.google.com/drive/1LQYV32w2alxA8AMwlJC2PHjAyfs58I5M?usp=sharing)
+:   In this code snippet, I show you how to read a non-HTML and HTML plain text file that contain time series data into a time series object in R.
+
 [Save and Load R History](https://colab.research.google.com/drive/1y-PPvuDylFYHzyvj8jNgJvjaxbxSH0NX?usp=sharing)
 :   For assignments (and for your own sake) you can save all the commands you have typed in an R session to a text file, typically called the .Rhistory file.
     In this code snippet, you will see how to save your history file and load it back into a given session.
