@@ -1,0 +1,13 @@
+bookdown::gitbook:
+  css: style.css
+  split_by: section
+  config:
+    toc:
+      collapse: subsection
+      before: |
+        <li><strong><a href="./">Intro to Data Science</a></strong></li>
+    sharing:
+      facebook: no
+      twitter: no
+      github: yes
+      all: []

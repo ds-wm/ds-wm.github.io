@@ -1,0 +1,12 @@
+---
+title: "An Introduction to Data Science"
+author: "Ron Smith"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook: default
+documentclass: book
+bibliography: ["book.bib"]
+biblio-style: apalike
+link-citations: true
+---

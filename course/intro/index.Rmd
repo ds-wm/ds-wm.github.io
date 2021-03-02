@@ -1,0 +1,20 @@
+---
+title: "Introduction to Data Science"
+pagetitle: "Intro to Data Science"
+---
+
+***
+
+```{r echo=FALSE, results='asis', comment=NA}
+# Print the current date (based on local computer time)
+cat("Updated:", as.character(Sys.Date()))
+```
+
+In this course students learn the fundamentals of data processing and modeling in the context of Data Science.
+Emphasis is placed on careful planning and deliberate decision making when working with data and building models.
+Programming is done in the Python language and we make extensive use of the [scikit-learn](https://scikit-learn.org/stable/) collection.
+
+After learning the basics of having a good Data Pipeline, students will be introduced to a variety of supervised and unsupervised machine-learning techniques including various methods for regression, classification, and clustering.
+By the end of the course, students are not expected to be an expert on any particular technique, but should exhibit a solid high-level understanding of the goals of each method, be able to determine when a particular type of model is more or less suitable to a real-world problem and, most importantly, demonstrate a keen attention to detail when working with data.
+
+Throughout the course, there is a strong emphasis placed on understanding why we are doing what we are doing.
