@@ -1,2 +1,71 @@
 # Data Preprocessing
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Descriptive Analysis
+This is getting to know your data.
+
+Broadly speaking, we can categorize data into three classes:
+
+* Continuous
+* Ordinal
+* Nominal
+
+Continuous data are numerical that can take on a range of values, such as the temperature, or someone's income.
+For continuous data, the magnitude of the numbers, as well as the difference
+between numbers, is meaningful.
+
+Ordinal data are also numerical, but only the order of the values is important, not their difference.
+An example is the order in which people finish a race (e.g., 1st place, 2nd place, etc.).
+It doesn't make sense to add these numbers (1st place + 2nd place does not equal 3rd place).
+
+Nominal data represent the names of things (e.g., countries, occupations, gender).
+These data may be represented numerically, but be careful!
+
+### Measures of central tendency
+
+- mean
+- median
+- mode
+
+### Measures of variability
+
+- variance
+- coefficient of variation
+- range
+- quantiles
+- percentiles
+
+$$
+\mathrm{var(x)}, \sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x - x_i)^2
+$$
+
+### Visualizations
+
+- histogram
+
+### Transformations
+
+- logarithm
+
+### Correlation
+
+- correlation coefficient
+
+## Feature Scaling
+In feature scaling, the goal is to transform each variable in a dataset independently, so that afterwards, all variables are represented with a similar
+range of numbers.
+
+- standardize (i.e., center and scale)
+
+## Dimensionality Reduction
+In dimensionality reduction, the goal is to transform an N-dimensional dataset (i.e., a dataset with N number of independent variables) into a dataset with less than N dimensions, usually by performing an operation on all variables simultaneously.
+
+### Principal component analysis (PCA)
+The goal of PCA is to find the directions in which the data is most variable.
+These "directions" are linear combinations of the original variables.
+
+The first PC is the direction along which the data is most variable.
+The second PC is any direction orthogonal to the first along which the data is most variable.
+The next PC is any direction orthogonal to the previous PCs along which the data is most variable.
+
+### t-distributed Stochastic Neighbor Embedding (tSNE)
+The goal of tSNE is to find a representation of the data in a lower-dimensional space that, as best as possible, preserves the distribution of local distances in the high dimensional space.

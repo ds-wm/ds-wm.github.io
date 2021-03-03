@@ -1,1 +1,31 @@
+---
+title: "An Introduction to Data Science"
+author:
+- name: "Ron Smith"
+- name: "Tyler Frazier"
+- name: "Daniel Vasiliu"
+- name: "Tyler W. Davis"
+  affiliation: "William & Mary"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook:
+    css: style.css
+    split_by: section
+    config:
+      toc:
+        collapse: subsection
+        before: |
+          <li><strong><a href="./">Intro to Data Science</a></strong></li>
+      sharing:
+        facebook: no
+        twitter: no
+        github: yes
+        all: []
+documentclass: book
+bibliography: ["book.bib"]
+biblio-style: apalike
+link-citations: true
+---
+
 # About the Authors {-}

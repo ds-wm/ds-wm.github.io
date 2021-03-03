@@ -1,2 +1,42 @@
 # Modeling and Validation
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Data science is the field that cares about finding patterns in data.
+A goal in discovering these patterns is our ability to reproduce them with a model.
+
+**What is a model?**
+
+A model is a mathematical representation of the real world.
+It can be of whatever phenomenon, process, system, series of observations, or occurrences you want.
+In many cases, a model is just an equation or an expression.
+
+The goal of the model is to estimate natural processes based on physical laws, theories and/or empirical knowledge.
+In short, a model is a "best estimate" of some process.
+A model takes a set of observations and tries to put them together in such a way as to mimic our understanding of our physical laws (e.g., gravitational force, thermal conductivity, fluid dynamics), of our theories (e.g., conflict theory, policy network theory, management theory), and our empirical knowledge.
+
+When we take a model as an expression of our understanding of a process, remember that our best insight into how the world works comes from that very first step of the scientific method: our observations.
+These make up our data.
+Therefore, these observations should be the basis that informs how we build our models.
+It all starts with data.
+
+**What do we do with models?**
+
+Models are used in two ways:
+
+- explain/represent past events
+- predict future events
+
+## Linear models
+
+- linear regression
+- ordinary least squares (OLS) method
+
+## Model Score
+
+- mean squared error (MSE)
+- coefficient of determination (r-squared)
+
+## Model validation
+
+- internal validity
+- external validity
+- overfit
+- underfit

@@ -1,2 +1,52 @@
 # Getting Started {-}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Introduction to Data Science
+What is Data Science and how did we get here?
+
+> "Data Science is the study (practice) of integrating mathematics, programming, and data to make meaningful inferences about the world around us."
+
+We differentiate data science from other fields, such as computer science, statistics and information science.
+
+Computer science is the study of algorithms, data structures and programming methodologies, which differentiates from data science as it is missing the meaningful inferences about our world.
+
+Statistics is a mathematical discipline concerned with the collection, description, and interpretation of data.
+This is a closer definition to data science but it is missing the hard data, such as data formats, archiving, and access.
+
+Information science is a field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval, movement, dissemination, and protection of information.
+The focus for information science is much more on the physical data: library collections, archives, databases, and how this information is consumed by users, but misses the computational and mathematical side of data science.
+
+You may think of data science as the intersect of computer science, statistics, and information science.
+
+## A Brief History of Data Science
+TBA
+
+## A Brief Introduction to Python
+As a data scientist, you will need tools to help you make meaningful inferences about our world from data.
+One such tool is computer programming.
+Computer programming comes in a variety of languages and, needless to say, there are a lot to choose from.
+Thanks to development efforts in numerical and scientific libraries, Python is a good choice.
+
+Why Python?
+
+1. First, it's considered a high-level language, which means it's easier---and as a result, generally faster---for us to read and write.
+    This tends to make development quicker and simpler.
+2. Secondly, it's an object-oriented language, which has several advantages over structured or functional programming, by simplifying the process of creating programs through the use of specially defined classes of objects; these objects encapsulate a specific set of rules, values and functions that can easily be maintained, reused, shared and scaled.
+3. Third, in addition to the standard library, there is a plethora of well-documented and supported third-party packages to help support a variety of projects.
+
+Python is actually two things: a language and an interpreter
+
+* We need to know how to read and write in Python (that's the language)
+* We also need something can understand what we just wrote (that's the translator)
+
+The idea that computer programs are a language means we need to get two things straight: *semantics* and *syntax*.
+
+Syntax is the set of *symbols* and *rules* that define terms used collectively to form a correctly structured document.
+Think of the symbols in our language as an alphabet and the rules act as the grammar and mechanics of the language.
+In practice, the alphabet is used to form words, words are combined with proper punctuation to form sentences, sentences are combined to form paragraphs, and so forth.
+A similar progression is done when writing in computer code.
+
+Semantics are the *meaning* (intent or purpose) behind the syntax.
+We prescribe meaning to words; the same goes for statements written in a program.
+If you see 'h' 'e' 'l' 'l' 'o' spelled out or you hear someone say "hello," you get a sense of greeting; in other words, there's meaning behind those words.
+We also know that the general greeting, "hello," can be spoken in other languages: ni hao (Mandarin), gutentag (German), bonjour (French), shalom (Hebrew), hola (Spanish), ciao (Italian).
+Notice that these words have the same semantics, but different syntax.

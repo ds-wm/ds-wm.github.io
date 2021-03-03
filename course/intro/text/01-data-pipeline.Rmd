@@ -1,2 +1,16 @@
 # The Data Pipeline
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+> "If the time to build an automated pipeline is less than the time you might spend doing/redoing things manually, it's a good time investment"
+
+The goal of a data pipeline is to automate as much of the process as possible.
+This saves time and avoids human error when performing the same (or similar) tasks repeatedly. 
+
+## Project Idea
+
+## Data Acquisition
+
+## Preprocessing
+
+## Analysis
+
+## Presentation
