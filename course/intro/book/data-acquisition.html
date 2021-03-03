@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1.2 Data Acquisition | An Introduction to Data Science</title>
+  <meta name="description" content="1.2 Data Acquisition | An Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1.2 Data Acquisition | An Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1.2 Data Acquisition | An Introduction to Data Science" />
+  
+  
+  
+
+
+
+<meta name="date" content="2021-03-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="project-idea.html"/>
+<link rel="next" href="preprocessing.html"/>
+<script src="libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><strong><a href="./">Intro to Data Science</a></strong></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i>Getting Started</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="introduction-to-data-science.html"><a href="introduction-to-data-science.html"><i class="fa fa-check"></i><b>0.1</b> Introduction to Data Science</a></li>
+<li class="chapter" data-level="0.2" data-path="a-brief-history-of-data-science.html"><a href="a-brief-history-of-data-science.html"><i class="fa fa-check"></i><b>0.2</b> A Brief History of Data Science</a></li>
+<li class="chapter" data-level="0.3" data-path="a-brief-introduction-to-python.html"><a href="a-brief-introduction-to-python.html"><i class="fa fa-check"></i><b>0.3</b> A Brief Introduction to Python</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="the-data-pipeline.html"><a href="the-data-pipeline.html"><i class="fa fa-check"></i><b>1</b> The Data Pipeline</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="project-idea.html"><a href="project-idea.html"><i class="fa fa-check"></i><b>1.1</b> Project Idea</a></li>
+<li class="chapter" data-level="1.2" data-path="data-acquisition.html"><a href="data-acquisition.html"><i class="fa fa-check"></i><b>1.2</b> Data Acquisition</a></li>
+<li class="chapter" data-level="1.3" data-path="preprocessing.html"><a href="preprocessing.html"><i class="fa fa-check"></i><b>1.3</b> Preprocessing</a></li>
+<li class="chapter" data-level="1.4" data-path="analysis.html"><a href="analysis.html"><i class="fa fa-check"></i><b>1.4</b> Analysis</a></li>
+<li class="chapter" data-level="1.5" data-path="presentation.html"><a href="presentation.html"><i class="fa fa-check"></i><b>1.5</b> Presentation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data-preprocessing.html"><a href="data-preprocessing.html"><i class="fa fa-check"></i><b>2</b> Data Preprocessing</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="descriptive-analysis.html"><a href="descriptive-analysis.html"><i class="fa fa-check"></i><b>2.1</b> Descriptive Analysis</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="descriptive-analysis.html"><a href="descriptive-analysis.html#measures-of-central-tendency"><i class="fa fa-check"></i><b>2.1.1</b> Measures of central tendency</a></li>
+<li class="chapter" data-level="2.1.2" data-path="descriptive-analysis.html"><a href="descriptive-analysis.html#measures-of-variability"><i class="fa fa-check"></i><b>2.1.2</b> Measures of variability</a></li>
+<li class="chapter" data-level="2.1.3" data-path="descriptive-analysis.html"><a href="descriptive-analysis.html#visualizations"><i class="fa fa-check"></i><b>2.1.3</b> Visualizations</a></li>
+<li class="chapter" data-level="2.1.4" data-path="descriptive-analysis.html"><a href="descriptive-analysis.html#transformations"><i class="fa fa-check"></i><b>2.1.4</b> Transformations</a></li>
+<li class="chapter" data-level="2.1.5" data-path="descriptive-analysis.html"><a href="descriptive-analysis.html#correlation"><i class="fa fa-check"></i><b>2.1.5</b> Correlation</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="feature-scaling.html"><a href="feature-scaling.html"><i class="fa fa-check"></i><b>2.2</b> Feature Scaling</a></li>
+<li class="chapter" data-level="2.3" data-path="dimensionality-reduction.html"><a href="dimensionality-reduction.html"><i class="fa fa-check"></i><b>2.3</b> Dimensionality Reduction</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="dimensionality-reduction.html"><a href="dimensionality-reduction.html#principal-component-analysis-pca"><i class="fa fa-check"></i><b>2.3.1</b> Principal component analysis (PCA)</a></li>
+<li class="chapter" data-level="2.3.2" data-path="dimensionality-reduction.html"><a href="dimensionality-reduction.html#t-distributed-stochastic-neighbor-embedding-tsne"><i class="fa fa-check"></i><b>2.3.2</b> t-distributed Stochastic Neighbor Embedding (tSNE)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="modeling-and-validation.html"><a href="modeling-and-validation.html"><i class="fa fa-check"></i><b>3</b> Modeling and Validation</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="linear-models.html"><a href="linear-models.html"><i class="fa fa-check"></i><b>3.1</b> Linear models</a></li>
+<li class="chapter" data-level="3.2" data-path="model-score.html"><a href="model-score.html"><i class="fa fa-check"></i><b>3.2</b> Model Score</a></li>
+<li class="chapter" data-level="3.3" data-path="model-validation.html"><a href="model-validation.html"><i class="fa fa-check"></i><b>3.3</b> Model validation</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">An Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-acquisition" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Data Acquisition</h2>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="project-idea.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="preprocessing.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": {}
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
