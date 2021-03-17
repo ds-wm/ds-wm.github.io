@@ -1,0 +1,47 @@
+FILES
+=====
+
+back-to-the-garden.gpx
+:   A GPS eXchange file collecting tracks and waypoints from William & Mary campus to the Williamsburg botanic garden.
+
+barbarello.mp3
+:   Audio file of original composed music.
+
+MDA300BKUP_resultsConverted-2YR_2003.txt
+:   Raw sensor measurements for node 2003 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2015.txt
+:   Raw sensor measurements for node 2015 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2025.txt
+:   Raw sensor measurements for node 2025 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2045.txt
+:   Raw sensor measurements for node 2045 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2055.txt
+:   Raw sensor measurements for node 2055 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2065.txt
+:   Raw sensor measurements for node 2065 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2085.txt
+:   Raw sensor measurements for node 2085 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2095.txt
+:   Raw sensor measurements for node 2095 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2115.txt
+:   Raw sensor measurements for node 2115 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2103.txt
+:   Raw sensor measurements for node 2103 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2125.txt
+:   Raw sensor measurements for node 2125 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+MDA300BKUP_resultsConverted-2YR_2135.txt
+:   Raw sensor measurements for node 2135 from the ASWPitt Wireless Sensor Network Project (2010-2012).
+
+watch_swdown_us-goo.csv
+:   Daily downward shortwave solar radiation from WATCH-WFDEI (Weedon, 2012) for the 0.5-degree pixel located over the US-Goo "Goodwin Creek" AmeriFlux site (+34.2547, -89.8735) for May 2002 and December 2003.
