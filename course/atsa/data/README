@@ -7,6 +7,12 @@ back-to-the-garden.gpx
 barbarello.mp3
 :   Audio file of original composed music.
 
+FLX_US-Goo_FLUXNET2015_SUBSET_HH_2002-05_1-4.csv
+:   AmeriFlux Site US-Goo half-hourly data for May 2002. FLUXNET 2015. CC-BY-4.0. (Pastorello et al., 2020)
+
+FLX_US-Goo_FLUXNET2015_SUBSET_HH_2003-12_1-4.csv
+:   AmeriFlux Site US-Goo half-hourly data for May 2002. FLUXNET 2015. CC-BY-4.0. (Pastorello et al., 2020)
+
 MDA300BKUP_resultsConverted-2YR_2003.txt
 :   Raw sensor measurements for node 2003 from the ASWPitt Wireless Sensor Network Project (2010-2012).
 
